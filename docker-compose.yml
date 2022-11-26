@@ -1,4 +1,4 @@
-version: '3',
+version: '3'
 service:
   api:
     image: api:latest
@@ -8,3 +8,4 @@ service:
       - 3000:3000
     volumes:
       - ./.env:/opt/app/.env
+version: '3.3'
