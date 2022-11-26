@@ -10,7 +10,7 @@ jobs:
     steps: 
       - uses: actions/checkout@develop
       - name: Publish to registry
-        uses: elgohr/Publish-Docker-Github-Action@develop
+        uses: elgohr/Publish-Docker-Github-Action@master
         with:
           registry: docker.pkg.github.com
           name: docker.pkg.github.com/IvanPeleshok/nestjs-sample/api
