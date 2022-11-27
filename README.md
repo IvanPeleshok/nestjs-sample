@@ -1,10 +1,3 @@
-## Instruction
-```
-Add required fields to .env
-Deploy mongo from docker-сompose.mongo.yml
-Deploy docker-compose.yml
-```
-
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -28,6 +21,13 @@ Deploy docker-compose.yml
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+  
+## Instruction
+```
+Add required fields to .env
+Deploy mongo from docker-сompose.mongo.yml
+Deploy docker-compose.yml
+```
 
 ## Description
 
