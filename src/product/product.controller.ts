@@ -6,11 +6,14 @@ import { FindProductDto } from './dto/find-product.dto';
 import { PRODUCT_NOT_FOUND_ERROR } from './product.constants';
 import { ProductModel } from './product.model';
 import { ProductService } from './product.service';
+import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 
 @Controller('product')
 export class ProductController {
     constructor(private readonly productService: ProductService) {}
 
+    @ApiOperation({ summary: 'Создание продукта' })
+    @ApiResponse({ status: 201, type: CreateProductDto })
     @UseGuards(JwtAUthGuard)
     @Post('create')
     async create(@Body() dto: CreateProductDto) {
