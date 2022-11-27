@@ -1,6 +1,9 @@
-## Add required fields to .env
-## Deploy mongo from docker-сompose.mongo.yml
-## Deploy docker-compose.yml
+## Instruction
+```
+Add required fields to .env
+Deploy mongo from docker-сompose.mongo.yml
+Deploy docker-compose.yml
+```
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
