@@ -1,6 +1,4 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { TopPageModule } from './top-page/top-page.module';
 import { ProductModule } from './product/product.module';
@@ -32,7 +30,7 @@ import { getTelegramConfig } from './configs/telegram.config';
             useFactory: getTelegramConfig,
         }),
     ],
-    controllers: [AppController],
-    providers: [AppService],
+    controllers: [],
+    providers: [],
 })
 export class AppModule {}
